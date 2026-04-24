@@ -2,12 +2,12 @@
 #include <string.h>
 
 int main(int argc, char *argv[]){
- for(int i=0; i<n-1; i++){
-      for(int j=0; j<n-i-1; j++){
-        if(strcmp(names[j], names[j+1]) > 0){
-          char *temp = names[j];
-          names[j] = names[j+1];
-          names[j+1] = temp;
+ for(int i=0; i<argc-1; i++){
+      for(int j=0; j<argc-i-1; j++){
+        if(strcmp(argv[j], argv[j+1]) > 0){
+          char *temp = argv[j];
+          argv[j] = argv[j+1];
+          argv[j+1] = temp;
         }
       }
     
