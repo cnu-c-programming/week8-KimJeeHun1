@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-  cahr s1[10] = "hi";
+  char s1[10] = "hi";
   char s2[] = "hi";
   char s3[] = {'h', 'i', '\0'};
 
