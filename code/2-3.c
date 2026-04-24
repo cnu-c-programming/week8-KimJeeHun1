@@ -5,7 +5,7 @@ int main(){
   char *p = "hello";
   char arr[] = "hello";
 
-  printf("%zu %zu\n", sizeof(p), strlent(p));
-  printf("%zu %zu\n", sizeof(arr), strlent(arr));
+  printf("%zu %zu\n", sizeof(p), strlen(p));
+  printf("%zu %zu\n", sizeof(arr), strlen(arr));
  return 0;
 }
